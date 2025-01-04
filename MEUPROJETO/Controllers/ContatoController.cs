@@ -4,8 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MEUPROJETO.Controllers
 {
-    [Route("Contato")] // Rota fixa para a controller Contato
-    [ApiController] // Definindo que é uma controladora de API
+    //[Route("Contato")] // Rota fixa para a controller Contato
+   // [ApiController] // Definindo que é uma controladora de API
     public class ContatoController : Controller
     {
         private readonly IContatoRepositorio _contatoRepositorio;
@@ -17,28 +17,24 @@ namespace MEUPROJETO.Controllers
         }
 
         // Método para exibir a listagem de contatos
-        [HttpGet("Listagem")]
         public IActionResult Listagem()
         {
             return View();
         }
 
         // Método para exibir a tela de criação de um novo contato
-        [HttpGet("CriarCttView")]
         public IActionResult CriarCttView()
         {
             return View();
         }
 
         // Método para exibir a tela de edição de um contato
-        [HttpGet("Editar")]
         public IActionResult EditarCtt()
         {
             return View();
         }
 
         // Método para exibir a tela de confirmação de exclusão de um contato
-        [HttpGet("Apagar")]
         public IActionResult ApagarCttConfirmacao()
         {
             return View();
@@ -48,22 +44,18 @@ namespace MEUPROJETO.Controllers
         // Métodos POST são usados para inclusão, ou seja, recebem a informação e cadastram
 
         // Método POST para criar um novo contato
-        [HttpPost("Criar")]
-        public IActionResult CriarCtt([FromBody] ContatoModel contato)
+        public IActionResult CriarCtt(ContatoModel contato)
         {
-            _contatoRepositorio.Adicionar(contato);
+            if (ModelState.IsValid)
+            {
+                _contatoRepositorio.Adicionar(contato);
 
-            return RedirectToAction("Index");
-        }
+                return RedirectToAction("Index");
+            }
 
-        /*
-        [HttpGet("id")]
-         public IActionResult ConsultarCtt()
-        {
+            return View(contato);
 
         }
-       */
-
 
     }
 }
