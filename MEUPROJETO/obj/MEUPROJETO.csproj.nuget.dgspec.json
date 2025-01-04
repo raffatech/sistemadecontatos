@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\MEUPROJETO.csproj": {}
+    "C:\\Users\\dillemonrecla\\Documents\\colab\\sistemadecontatos\\MEUPROJETO\\MEUPROJETO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\MEUPROJETO.csproj": {
+    "C:\\Users\\dillemonrecla\\Documents\\colab\\sistemadecontatos\\MEUPROJETO\\MEUPROJETO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\MEUPROJETO.csproj",
+        "projectUniqueName": "C:\\Users\\dillemonrecla\\Documents\\colab\\sistemadecontatos\\MEUPROJETO\\MEUPROJETO.csproj",
         "projectName": "MEUPROJETO",
-        "projectPath": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\MEUPROJETO.csproj",
-        "packagesPath": "C:\\Users\\gomes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\obj\\",
+        "projectPath": "C:\\Users\\dillemonrecla\\Documents\\colab\\sistemadecontatos\\MEUPROJETO\\MEUPROJETO.csproj",
+        "packagesPath": "C:\\Users\\dillemonrecla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dillemonrecla\\Documents\\colab\\sistemadecontatos\\MEUPROJETO\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\gomes\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\dillemonrecla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -38,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -84,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -73,6 +73,27 @@
 <div class="d-flex justify-content-end">
     <a class="btn btn-primary" role="button" asp-controller="Contato" asp-action="CriarCttView">Adicionar novo contato</a>
 </div>
+
+<script>
+    $(document).ready(function() {
+        $("form").on("submit", function(event) {
+            event.preventDefault();
+            var formData = $(this).serialize();
+
+            $.ajax({
+                url: '@Url.Action("EnviarContatos", "Contato")',
+                type: 'POST',
+                data: formData,
+                success: function(response) {
+                    alert('Contatos enviados com sucesso!');
+                },
+                error: function(xhr, status, error) {
+                    alert('Erro ao enviar contatos');
+                }
+            });
+        });
+    });
+</script>
 <!--A classe btn btn-primary do Bootstrap deixa o elemento com aparência de um botão,
 o role="button" avisa ao navegador e às tecnologias assistivas que ele deve ser tratado como um botão,
 não importando a tag. O atributo role serve para definir a função do elemento em termos de acessibilidade,
