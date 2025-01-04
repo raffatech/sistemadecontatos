@@ -1,0 +1,229 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\views\\contato\\listagem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\views\\contato\\listagem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\views\\contato\\criarcttview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\views\\contato\\criarcttview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\models\\contatomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\models\\contatomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\repositorio\\contatorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\repositorio\\contatorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\repositorio\\icontatorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\repositorio\\icontatorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\data\\bancocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\data\\bancocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\views\\contato\\editarctt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\views\\contato\\editarctt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MEUPROJETO\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MEUPROJETO\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T16:53:09.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IContatoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Repositorio\\IContatoRepositorio.cs",
+              "RelativeDocumentMoniker": "MEUPROJETO\\Repositorio\\IContatoRepositorio.cs",
+              "ToolTip": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Repositorio\\IContatoRepositorio.cs",
+              "RelativeToolTip": "MEUPROJETO\\Repositorio\\IContatoRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T14:55:13.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContatoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Repositorio\\ContatoRepositorio.cs",
+              "RelativeDocumentMoniker": "MEUPROJETO\\Repositorio\\ContatoRepositorio.cs",
+              "ToolTip": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Repositorio\\ContatoRepositorio.cs",
+              "RelativeToolTip": "MEUPROJETO\\Repositorio\\ContatoRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T14:52:50.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Listagem.cshtml",
+              "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\Contato\\Listagem.cshtml",
+              "RelativeDocumentMoniker": "MEUPROJETO\\Views\\Contato\\Listagem.cshtml",
+              "ToolTip": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\Contato\\Listagem.cshtml",
+              "RelativeToolTip": "MEUPROJETO\\Views\\Contato\\Listagem.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T13:00:30.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MEUPROJETO\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MEUPROJETO\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T16:53:18.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MEUPROJETO\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MEUPROJETO\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T18:56:48.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\appsettings.json",
+              "RelativeDocumentMoniker": "MEUPROJETO\\appsettings.json",
+              "ToolTip": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\appsettings.json",
+              "RelativeToolTip": "MEUPROJETO\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-02T13:12:51.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Program.cs",
+              "RelativeDocumentMoniker": "MEUPROJETO\\Program.cs",
+              "ToolTip": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Program.cs",
+              "RelativeToolTip": "MEUPROJETO\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T13:08:12.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BancoContext.cs",
+              "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Data\\BancoContext.cs",
+              "RelativeDocumentMoniker": "MEUPROJETO\\Data\\BancoContext.cs",
+              "ToolTip": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Data\\BancoContext.cs",
+              "RelativeToolTip": "MEUPROJETO\\Data\\BancoContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T12:52:37.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContatoModel.cs",
+              "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Models\\ContatoModel.cs",
+              "RelativeDocumentMoniker": "MEUPROJETO\\Models\\ContatoModel.cs",
+              "ToolTip": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Models\\ContatoModel.cs",
+              "RelativeToolTip": "MEUPROJETO\\Models\\ContatoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T12:41:36.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CriarCttView.cshtml",
+              "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\Contato\\CriarCttView.cshtml",
+              "RelativeDocumentMoniker": "MEUPROJETO\\Views\\Contato\\CriarCttView.cshtml",
+              "ToolTip": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\Contato\\CriarCttView.cshtml",
+              "RelativeToolTip": "MEUPROJETO\\Views\\Contato\\CriarCttView.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAuwC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T16:15:35.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EditarCtt.cshtml",
+              "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\Contato\\EditarCtt.cshtml",
+              "RelativeDocumentMoniker": "MEUPROJETO\\Views\\Contato\\EditarCtt.cshtml",
+              "ToolTip": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\Contato\\EditarCtt.cshtml",
+              "RelativeToolTip": "MEUPROJETO\\Views\\Contato\\EditarCtt.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-28T14:14:42.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContatoController.cs",
+              "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Controllers\\ContatoController.cs",
+              "RelativeDocumentMoniker": "MEUPROJETO\\Controllers\\ContatoController.cs",
+              "ToolTip": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Controllers\\ContatoController.cs",
+              "RelativeToolTip": "MEUPROJETO\\Controllers\\ContatoController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T12:44:45.298Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

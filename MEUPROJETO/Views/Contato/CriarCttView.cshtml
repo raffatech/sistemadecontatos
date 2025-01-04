@@ -24,6 +24,27 @@
     <a class="btn btn-secondary" asp-controller="Contato" asp-action="Listagem">Voltar</a>
 </form>
 
+<script>
+    $(document).ready(function () {
+        $("form").on("submit", function (event) {
+            event.preventDefault();
+            var formData = $(this).serialize();
+
+            $.ajax({
+                url: '@Url.Action("EnviarContatos", "Contato")',
+                type: 'POST',
+                data: formData,
+                success: function (response) {
+                    alert('Contatos enviados com sucesso!');
+                },
+                error: function (xhr, status, error) {
+                    alert('Erro ao enviar contatos');
+                }
+            });
+        });
+    });
+</script>
+
 <!--Essa view cria os dados do contato da pessoa e ao final uso a classe do bootstrap
     para cores do botao cadastrar e voltar, que redireciona para a ContatoController e chama
     a action de listagem para listar os contatos cadastrados
