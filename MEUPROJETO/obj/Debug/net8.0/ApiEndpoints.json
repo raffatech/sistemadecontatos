@@ -1,0 +1,58 @@
+[
+  {
+    "ContainingType": "MEUPROJETO.Controllers.ContatoController",
+    "Method": "ApagarCttConfirmacao",
+    "RelativePath": "Contato/Apagar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MEUPROJETO.Controllers.ContatoController",
+    "Method": "CriarCtt",
+    "RelativePath": "Contato/Criar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contato",
+        "Type": "MEUPROJETO.Models.ContatoModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MEUPROJETO.Controllers.ContatoController",
+    "Method": "CriarCttView",
+    "RelativePath": "Contato/CriarCttView",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MEUPROJETO.Controllers.ContatoController",
+    "Method": "EditarCtt",
+    "RelativePath": "Contato/Editar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MEUPROJETO.Controllers.ContatoController",
+    "Method": "Listagem",
+    "RelativePath": "Contato/Listagem",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

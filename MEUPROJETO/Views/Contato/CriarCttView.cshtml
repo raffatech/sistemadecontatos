@@ -1,0 +1,33 @@
+﻿@model ContatoModel   //Informando para essa view a model que ela vai usar
+
+@{
+    ViewData["Title"] = "Cadastrar contato"; //nome que vai aparecer na aba da pagina
+}
+
+<div class="text-center">
+
+    <h1>Cadastrar Contato</h1>
+</div>
+<form asp-controller="Contato" asp-action="Criar" method="post">
+    <div class="form-group">
+        <label for="nomeid">Nome</label>
+        <input type="text" asp-for="Nome"class="form-control" placeholder="Digite seu nome">
+    </div>
+
+    <div class="form-group">
+        <label for="emailid">Email</label>
+        <input type="email" asp-for="Email" class="form-control" placeholder="Digite seu email"> <!-- placeholder é oq fica antes de digtiar algo-->
+    </div>
+
+    <br>
+    <button type="submit" class="btn btn-primary ">Cadastrar</button>
+    <a class="btn btn-secondary" asp-controller="Contato" asp-action="Listagem">Voltar</a>
+</form>
+
+<!--Essa view cria os dados do contato da pessoa e ao final uso a classe do bootstrap
+    para cores do botao cadastrar e voltar, que redireciona para a ContatoController e chama
+    a action de listagem para listar os contatos cadastrados
+
+    Deixa os botoes bem grandes para pegar toda a largura do conteiner ¬>
+    <button type="submit" class="btn btn-primary w-100">Cadastrar</button>
+-->
