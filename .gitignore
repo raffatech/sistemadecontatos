@@ -1,0 +1,73 @@
+# Ignore arquivos do Visual Studio
+MEUPROJETO/.vs/
+.vs/
+.vs2019/
+.vs2017/
+.vs2015/
+.idea/
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+# User-specific files for Rider
+.idea/
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+# Windows Installer
+*.cab
+*.msi
+*.msm
+*.msp
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Files do Node.js (caso use)
+node_modules/
+
+# Pacotes NuGet
+# Uncomment if you have an issue with your project's packages folder
+#packages/
+
+# Tye
+.tye/
+
+# Tye build outputs
+.tye/build/
+
+# Ignore build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]istro/
+[Dd]ebug/ 
+[Dd]ebug|Release/
+bin/
+obj/
+MEUPROJETO/bin/
+MEUPROJETO/obj/
+# ASP.NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider
+.idea/
+
+# VS for Mac
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer
+*.cab
+*.msi
+*.msm
+*.msp
