@@ -5,6 +5,7 @@ MEUPROJETO/.vs/
 .vs2017/
 .vs2015/
 .idea/
+.github/
 # User-specific files
 *.user
 *.userosscache
