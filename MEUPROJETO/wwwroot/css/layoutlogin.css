@@ -1,0 +1,105 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.close-alert {
+    position: absolute;
+    right: -10px;
+    top: -15px;
+    border-radius: 15px;
+    width: 30px;
+    height: 31px;
+}
+
+.alert {
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 450px;
+    /* Para que o botão seja posicionado em relação ao alerta */
+}
+/* Centralizar a tela de login */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Centraliza verticalmente */
+    */ margin: 0;
+    background-color: #ffffff; /* Cor do container */
+}
+
+/* Estilização do formulário */
+.login-form {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra leve no formulario */
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+.mb-3 {
+    margin-bottom: 1.5rem; /* Ajuste do espaçamento entre os campos */
+}
+.btn-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.btn-group i {
+    position: absolute;
+    left: 10px;
+    color: #000000;
+    font-size: 1.2rem;
+    }
+.btn-group .form-control {
+    padding-left: 2.5rem; /* Espaço para o ícone */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 40px;
+ }
+
+.btn-group .form-control:focus {
+     border-color: #007bff;
+     box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+ }
+
+    /* Botão */
+.login-form .btn {
+    background-color: #007bff;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.login-form .btn:hover {
+    background-color: #0056b3;
+}
+
+  /* Links */
+.login-form a {
+    text-decoration: none;
+    color: gray;
+}
+
+.login-form a:hover {
+    color: #007bff;
+}
+
+

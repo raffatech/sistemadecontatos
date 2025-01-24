@@ -1,4 +1,4 @@
-namespace MEUPROJETO.Models
+namespace MEUPROJETO.ViewModels
 {
     public class ErrorViewModel
     {

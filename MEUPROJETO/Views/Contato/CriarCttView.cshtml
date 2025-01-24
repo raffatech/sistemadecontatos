@@ -1,4 +1,4 @@
-﻿@model ContatoModel   //Informando para essa view a model que ela vai usar
+﻿@model ContatoViewModel   //Informando para essa view a model que ela vai usar
 
 @{
     ViewData["Title"] = "Cadastrar contato"; //nome que vai aparecer na aba da pagina
@@ -12,11 +12,19 @@
     <div class="form-group">
         <label for="nomeid">Nome</label>
         <input type="text" asp-for="Nome"class="form-control" placeholder="Digite seu nome">
+        <span asp-validation-for="Nome" class="text-danger"></span>
     </div>
 
     <div class="form-group">
         <label for="emailid">Email</label>
         <input type="email" asp-for="Email" class="form-control" placeholder="Digite seu email"> <!-- placeholder é oq fica antes de digtiar algo-->
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="celularid">Celular</label>
+        <input type="text" asp-for="Celular" class="form-control" placeholder="Digite seu celular"> <!-- placeholder é oq fica antes de digtiar algo-->
+        <span asp-validation-for="Celular" class="text-danger"></span> <!-- isso aqui é oq faz que as mensagens que coloquei na model sejam exibidas-->
     </div>
 
     <br>
@@ -24,26 +32,6 @@
     <a class="btn btn-secondary" asp-controller="Contato" asp-action="Listagem">Voltar</a>
 </form>
 
-<script>
-    $(document).ready(function () {
-        $("form").on("submit", function (event) {
-            event.preventDefault();
-            var formData = $(this).serialize();
-
-            $.ajax({
-                url: '@Url.Action("EnviarContatos", "Contato")',
-                type: 'POST',
-                data: formData,
-                success: function (response) {
-                    alert('Contatos enviados com sucesso!');
-                },
-                error: function (xhr, status, error) {
-                    alert('Erro ao enviar contatos');
-                }
-            });
-        });
-    });
-</script>
 
 <!--Essa view cria os dados do contato da pessoa e ao final uso a classe do bootstrap
     para cores do botao cadastrar e voltar, que redireciona para a ContatoController e chama

@@ -18,6 +18,8 @@ C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\bin\Debug\net8.0\Microsoft.Ent
 C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\bin\Debug\net8.0\System.Composition.Convention.dll
@@ -84,6 +86,7 @@ C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\obj\Debug\net8.0\MEUPROJETO.cs
 C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\obj\Debug\net8.0\MEUPROJETO.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\obj\Debug\net8.0\MEUPROJETO.RazorAssemblyInfo.cache
 C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\obj\Debug\net8.0\MEUPROJETO.RazorAssemblyInfo.cs
+C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\obj\Debug\net8.0\MEUPROJETO.sourcelink.json
 C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\obj\Debug\net8.0\staticwebassets\msbuild.MEUPROJETO.Microsoft.AspNetCore.StaticWebAssets.props
@@ -92,6 +95,7 @@ C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\obj\Debug\net8.0\staticwebasse
 C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MEUPROJETO.props
 C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutDeslogado.cshtml.rz.scp.css
 C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\obj\Debug\net8.0\scopedcss\bundle\MEUPROJETO.styles.css
 C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\obj\Debug\net8.0\scopedcss\projectbundle\MEUPROJETO.bundle.scp.css
 C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\obj\Debug\net8.0\MEUPROJETO.csproj.Up2Date
@@ -100,6 +104,3 @@ C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\obj\Debug\net8.0\refint\MEUPRO
 C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\obj\Debug\net8.0\MEUPROJETO.pdb
 C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\obj\Debug\net8.0\MEUPROJETO.genruntimeconfig.cache
 C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\obj\Debug\net8.0\ref\MEUPROJETO.dll
-C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\bin\Debug\net8.0\MySqlConnector.dll
-C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
-C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO\obj\Debug\net8.0\MEUPROJETO.sourcelink.json

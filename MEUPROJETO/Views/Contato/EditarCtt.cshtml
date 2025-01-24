@@ -1,22 +1,35 @@
-﻿@{
+﻿@model ContatoViewModel
+@{
     ViewData["Title"] = "Editar contato";
 }
+
 
 <div class="text-center">
 
     <h1>Editar Contato</h1>
 
 </div>
-<form>
+<form asp-controller="Contato" asp-action="EditarCtt" method="post">
+     <input type="hidden" asp-for="Id" />
+
     <div class="form-group">
         <label for="nomeid">Nome</label>
-        <input type="text" class="form-control" placeholder="Digite seu nome">
+        <input type="text" asp-for="Nome" class="form-control" placeholder="Digite seu nome">
+        <span asp-validation-for="Nome" class="text-danger"></span>
     </div>
+
     <div class="form-group">
         <label for="emailid">Email</label>
-        <input type="email" class="form-control" placeholder="Digite seu email"> <!-- placeholder é oq fica antes de digtiar algo-->
+        <input type="email" asp-for="Email" class="form-control" placeholder="Digite seu email"> <!-- placeholder é oq fica antes de digtiar algo-->
+        <span asp-validation-for="Email" class="text-danger"></span>
     </div>
-    <br>
+
+    <div class="form-group">
+        <label for="celularid">Celular</label>
+        <input type="text" asp-for="Celular" class="form-control" placeholder="Digite seu celular"> <!-- placeholder é oq fica antes de digtiar algo-->
+        <span asp-validation-for="Celular" class="text-danger"></span>
+    </div>
+
     <button type="submit" class="btn btn-primary ">Editar</button>
-    <a class="btn btn-secondary" asp-controller="Contato" asp-action="Listagem">Voltar</a>
+    <a class="btn btn-secondary" asp-route-id="@Model.Id" asp-controller="Contato" asp-action="Listagem">Voltar</a>
 </form>

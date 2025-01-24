@@ -8,62 +8,59 @@ namespace MEUPROJETO.Controllers
 {
     //[Route("Contato")] // Rota fixa para a controller Contato
     // [ApiController] // Definindo que é uma controladora de API
-    public class ContatoController : Controller
+    public class UsuarioController : Controller
     {
 
         private readonly BancoContext _bancoContext;
 
         // criei construtor para injetar o banco e inserir os registros direto
-        public ContatoController(BancoContext bancoContext)
+        public UsuarioController(BancoContext bancoContext)
         {
 
             _bancoContext = bancoContext;
         }
 
         // Método para exibir a listagem de contatos
-        public IActionResult Listagem()
+        public IActionResult ListagemUsuario()
         {
             /*exibindo na tela uma lista do tipo ContatoModel
               que pega do banco a tabela Contatos e lista*/
-            List<ContatoModel> contatos = _bancoContext.Contatos.ToList();
+            List<UsuarioModel> usuarios = _bancoContext.Usuarios.ToList();
 
-            return View(contatos);
+            return View(usuarios);
         }
 
         // Método para exibir a tela de criação de um novo contato
 
-        public IActionResult CriarCttView()
+        public IActionResult CriarUsuarioView()
         {
             return View();
         }
 
         [HttpGet]
         // Método para exibir a tela de confirmação de exclusão de um contato
-        public IActionResult AlertarDelete(int id)
+        public IActionResult AlertarExclusaoView(int id)
         {
-            ContatoModel? contatoaSerApagado = _bancoContext.Contatos
+            UsuarioModel? UsuarioaSerapagado = _bancoContext.Usuarios
              .Where(w => w.Id == id)
              .FirstOrDefault();
 
-            // Mapeando o contatoaSerApagado da ContatoModel para ContatoViewModel
-            ContatoViewModel ContatoView = new ContatoViewModel
+            // Mapeando o UsuarioaSerapagado da ContatoModel para ContatoViewModel
+            UsuarioViewModel usuarioView = new UsuarioViewModel
             {
-                Id = contatoaSerApagado.Id,
-                Nome = contatoaSerApagado.Nome,
-                Email = contatoaSerApagado.Email,
-                Celular = contatoaSerApagado.Celular
+                Id = UsuarioaSerapagado.Id
             };
 
-            return View(ContatoView);
+            return View(usuarioView);
         }
 
         public IActionResult Apagar(int id)
         {
             // Busca o contato no banco de dados pelo Id usando FirstOrDefault
-            ContatoModel? contatoNoBanco = _bancoContext.Contatos.FirstOrDefault(x => x.Id == id);
+            UsuarioModel? UsuarioBanco = _bancoContext.Usuarios.FirstOrDefault(x => x.Id == id);
 
             // Verifica se o contato existe no banco
-            if (contatoNoBanco == null)
+            if (UsuarioBanco == null)
             {
                 throw new System.Exception("Houve um erro ao deletar"); //msotrará uma mensagem de exceção no codigo para o erro
 
@@ -71,78 +68,78 @@ namespace MEUPROJETO.Controllers
             else
             {
                 // Remove o contato do banco de dados
-                _bancoContext.Contatos.Remove(contatoNoBanco);
+                _bancoContext.Usuarios.Remove(UsuarioBanco);
 
-                TempData["Mensagemsucesso"] = "Contato apagado com sucesso";
+                TempData["Mensagemsucesso"] = "Usuario apagado com sucesso";
                 // Salva as alterações no banco
                 _bancoContext.SaveChanges();
 
 
                 // Busca a lista atualizada de contatos
-                List<ContatoModel> listaContatos = _bancoContext.Contatos.ToList();
+                List<UsuarioModel> listaUsuarios = _bancoContext.Usuarios.ToList();
 
                 // Redireciona para a action que exibe a listagem
-                return RedirectToAction("Listagem");
+                return RedirectToAction("ListagemUsuario");
             }
         }
 
-
-        /* O mapeamento de ContatoViewModel para ContatoModel não foi necessário,
-  pois a exclusão ocorre diretamente pelo Id (Primary Key).
-  O método Find busca o contato diretamente pela chave primária (PK),
-  sendo mais eficiente do que FirstOrDefault.
-*/
-
         [HttpGet]
-        public IActionResult EditarCtt(int id)
+        public IActionResult EditarUsuarioView(int id)
         {
             // Buscar o contato pelo ID no banco de dados
-            ContatoModel? contatoaSerEditado = _bancoContext.Contatos
+            UsuarioModel? usuarioASerEditado = _bancoContext.Usuarios
                 .Where(w => w.Id == id)
                 .FirstOrDefault();
 
-            if (contatoaSerEditado == null) throw new System.Exception("Esse id não existe no banco," +
+            if (usuarioASerEditado == null) throw new System.Exception("Esse id não existe no banco," +
                 "tente novamente");
             // Se não encontrar o contato, exibe uma página de erro
 
 
             // Mapeando o contatoAntigo da ContatoModel para ContatoViewModel
-            ContatoViewModel ContatoAntigo = new ContatoViewModel
+            UsuarioViewModel UsuarioAntigo = new UsuarioViewModel
             {
-                Id = contatoaSerEditado.Id,
-                Nome = contatoaSerEditado.Nome,
-                Email = contatoaSerEditado.Email,
-                Celular = contatoaSerEditado.Celular
+                Id = usuarioASerEditado.Id,
+                Nome = usuarioASerEditado.Nome,
+                Login = usuarioASerEditado.Login,
+                Email = usuarioASerEditado.Email,
+                Perfil = usuarioASerEditado.Perfil,
+                Senha = "XXXXXXXXXXXX",
+                DataCadastro = usuarioASerEditado.DataCadastro,
             };
 
-            return View(ContatoAntigo);  // Passar o contato antigo para a EditarCtt
+            return View(UsuarioAntigo);  // Passar o contato antigo para a EditarCtt
         }
         [HttpPost]
-        public IActionResult EditarCtt(ContatoViewModel contatoViewModel)
+        public IActionResult EditarUsuarioView(UsuarioViewModel usuarioViewModel)
         {
             if (ModelState.IsValid)
             {
-                // Criei um objeto para mapear os dados que vieram por parametro da contatoViewModel para a ContatoModel
-                ContatoModel contatoEditado = new ContatoModel
+                // Buscar o contato pelo ID no banco de dados
+                UsuarioModel? usuarioBanco = _bancoContext.Usuarios
+                    .Where(w => w.Id == usuarioViewModel.Id)
+                    .FirstOrDefault();
+
+                if (usuarioBanco != null)
                 {
-                    Id = contatoViewModel.Id,
-                    Nome = contatoViewModel.Nome,
-                    Email = contatoViewModel.Email,
-                    Celular = contatoViewModel.Celular
-                };
 
-                // Atualizar o contato no banco de dados
-                _bancoContext.Contatos.Update(contatoEditado);
-                _bancoContext.SaveChanges();
+                    // Criei um objeto para mapear os dados que vieram por parametro da usuarioViewModel para a ContatoModel
+                    usuarioBanco.Nome = usuarioViewModel.Nome;
+                    usuarioBanco.Email = usuarioViewModel.Email;
+                    usuarioBanco.Perfil = usuarioViewModel.Perfil ?? 0;
+                    usuarioBanco.DataAtualizacao = DateTime.Now;
 
-                return RedirectToAction("Listagem");  // Redireciona para a lista de contatos
+                    // Salvar no banco
+                    _bancoContext.SaveChanges();
+
+                    return RedirectToAction("ListagemUsuario");  // Redireciona para a lista de contatos
+                }
+                else ModelState.AddModelError("", "Usuário inválido");
             }
 
             // Se o modelo não for válido, retorna à mesma view com os dados e erros de validação
-            return View(contatoViewModel);
+            return View("EditarUsuarioView", usuarioViewModel);
         }
-
-
 
         // Métodos que não têm tipo são GET (apenas para buscar as informações da tela)
         // Métodos POST são usados para inclusão, ou seja, recebem a informação e cadastram

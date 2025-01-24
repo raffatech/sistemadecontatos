@@ -1,0 +1,37 @@
+﻿@model LoginModel
+
+@{
+
+    Layout = "_LayoutDeslogado";
+    ViewData["Title"] = "Login";
+}
+@if (TempData["Mensagemerro"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        <button type="button" class="btn btn-danger btn-sm close-alert">X</button>
+        @TempData["Mensagemerro"]
+    </div>
+}
+<div class="login-container">
+    <form asp-controller="Login" asp-action="Entrar" method="post" class="login-form">
+        <div class="mb-3">
+            <label for="Login" class="form-label">Login</label>
+            <div class="btn-group">
+                <input asp-for="Login" class="form-control" placeholder="Digite o login">
+                <span asp-validation-for="Login" class="text-danger"></span>
+                <i class="bx bxs-user"></i>
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="Senha" class="form-label">Senha</label>
+            <div class="btn-group">
+                <input asp-for="Senha" type="password" class="form-control" placeholder="Digite a senha">
+                <span asp-validation-for="Senha" class="text-danger"></span>
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+        </div>
+
+        <button type="submit" class="btn">Entrar</button>
+    </form>
+</div>
+

@@ -18,8 +18,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\gomes\source\repos\MEUPROJETO\MEUPROJETO
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/gomes/source/repos/MEUPROJETO/MEUPROJETO/Views/Contato/ApagarCttConfirmacao.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xBcGFnYXJDdHRDb25maXJtYWNhby5jc2h0bWw=
+[C:/Users/gomes/source/repos/MEUPROJETO/MEUPROJETO/Views/Contato/AlertarDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xBbGVydGFyRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/gomes/source/repos/MEUPROJETO/MEUPROJETO/Views/Contato/CriarCttView.cshtml]
@@ -34,12 +34,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGF0b1xMaXN0YWdlbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gomes/source/repos/MEUPROJETO/MEUPROJETO/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/gomes/source/repos/MEUPROJETO/MEUPROJETO/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/gomes/source/repos/MEUPROJETO/MEUPROJETO/Views/Login/LoginTela.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW5UZWxhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/gomes/source/repos/MEUPROJETO/MEUPROJETO/Views/Shared/Error.cshtml]
@@ -48,6 +44,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/gomes/source/repos/MEUPROJETO/MEUPROJETO/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gomes/source/repos/MEUPROJETO/MEUPROJETO/Views/Usuario/AlertarExclusaoView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xBbGVydGFyRXhjbHVzYW9WaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gomes/source/repos/MEUPROJETO/MEUPROJETO/Views/Usuario/CriarUsuarioView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmlhclVzdWFyaW9WaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gomes/source/repos/MEUPROJETO/MEUPROJETO/Views/Usuario/EditarUsuarioView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0YXJVc3VhcmlvVmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gomes/source/repos/MEUPROJETO/MEUPROJETO/Views/Usuario/ListagemUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMaXN0YWdlbVVzdWFyaW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/gomes/source/repos/MEUPROJETO/MEUPROJETO/Views/_ViewImports.cshtml]
@@ -61,3 +73,7 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/gomes/source/repos/MEUPROJETO/MEUPROJETO/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-a9gwztrxhp
+
+[C:/Users/gomes/source/repos/MEUPROJETO/MEUPROJETO/Views/Shared/_LayoutDeslogado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXREZXNsb2dhZG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hlh92fcylg

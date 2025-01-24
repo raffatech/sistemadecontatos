@@ -1,0 +1,27 @@
+﻿@model ContatoViewModel 
+
+@{
+    ViewData["Title"] = "Confirmação de apagar contato"; //nome que vai aparecer na aba da pagina
+}
+
+@if (Model != null)
+{
+    <div style="margin-top: 100px;" class="text-center">
+    <h3>Realmente deseja apagar o contato @Model.Nome?</h3>
+
+        <a style="margin-top: 20px;" class="btn btn-primary btn-block" style="margin-right: 50px;" role="button" asp-controller="Contato" asp-action="Listagem">Cancelar exclusão</a>
+        <a style="margin-top: 20px;" class="btn btn-danger btn-block" style="margin-right: 50px;" role="button" asp-controller="Contato" asp-route-id="@Model.Id" asp-action="Apagar">Confirmar exclusão</a>
+    </div>
+                                                                                       /* asp-route-id="@Model.Id" Aqui passa o id que quero apagar para o controller action apagar */
+                                                                                                                   
+
+}
+<!--Padding: Espaço interno, distancia do conteudo da tag e as bordas
+    normalmente é mais usado em botao, imagem
+    
+    Margin: Espaço externo, distancia das extremidades da tela e entre os
+    elementos
+    
+    width: largura
+    
+    height: altura-->

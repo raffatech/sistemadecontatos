@@ -1,5 +1,4 @@
 using MEUPROJETO.Data;
-using MEUPROJETO.Repositorio;
 using Microsoft.EntityFrameworkCore; // Namespace onde está o BancoContext
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,10 +10,6 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
     builder.Services.AddDbContext<BancoContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)
     ));
-
-//configurando a injeção de dependencia da interface para saber quem vai resolver a classe de implementação
-//toda vez que a interface IContatoRepositorio for chamada, vai usar a classe contatorepositario
-builder.Services.AddScoped<IContatoRepositorio, ContatoRepositorio>();
 
 // Adicionar serviços para MVC e Razor Views
 builder.Services.AddControllersWithViews();
@@ -38,7 +33,7 @@ app.UseAuthorization();
 // Configuração da rota padrão
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Login}/{action=LoginTela}/{id?}");
 
 app.Run();
 

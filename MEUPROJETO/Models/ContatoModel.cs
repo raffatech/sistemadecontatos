@@ -1,4 +1,6 @@
-﻿namespace MEUPROJETO.Models
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace MEUPROJETO.Models
 {
     public class ContatoModel
     {

@@ -1,0 +1,51 @@
+﻿@model UsuarioViewModel   //Informando para essa view a model que ela vai usar
+@using MEUPROJETO.Enums
+
+@{
+    ViewData["Title"] = "Criar Usuario"; //nome que vai aparecer na aba da pagina
+}
+
+<div class="text-center">
+
+    <h1>Criar Usuario</h1>
+</div>
+<form asp-controller="Usuario" asp-action="CriarUsuario" method="post">
+
+    <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+    <div class="form-group">
+        <label for="nomeid" class="form-label">Nome</label>
+        <input type="text" asp-for="Nome" class="form-control" placeholder="Digite seu nome">
+        <span asp-validation-for="Nome" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="emailid" class="form-label">Email</label>
+        <input type="email" asp-for="Email" class="form-control" placeholder="Digite seu email"> <!-- placeholder é oq fica antes de digtiar algo-->
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="loginid" class="form-label">Login</label>
+        <input type="text" asp-for="Login" class="form-control" placeholder="Digite seu login"> <!-- placeholder é oq fica antes de digtiar algo-->
+        <span asp-validation-for="Login" class="text-danger"></span> <!-- isso aqui é oq faz que as mensagens que coloquei na model sejam exibidas-->
+    </div>
+    <div class="form-group">
+        <label for="Perfil" class="form-label">Perfil</label>
+        <select asp-for="Perfil" class="form-control">
+            <option value="" disabled selected>Selecione</option>
+            <option value="1">Administrador</option> <!-- 1 corresponde a Admin -->
+            <option value="2">Padrão</option>       <!-- 2 corresponde a Padrao -->
+        </select>
+        <span asp-validation-for="Perfil" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="senhaid" class="form-label">Senha</label>
+        <input type="password" asp-for="Senha" class="form-control" placeholder="Digite a senha do usuario"> <!-- placeholder é oq fica antes de digtiar algo-->
+        <span asp-validation-for="Senha" class="text-danger"></span> <!-- isso aqui é oq faz que as mensagens que coloquei na model sejam exibidas-->
+    </div>
+
+    <br>
+    <button type="submit" class="btn btn-primary ">Cadastrar</button>
+    <a class="btn btn-secondary" asp-controller="Usuario" asp-action="ListagemUsuario">Voltar</a>
+</form>
+

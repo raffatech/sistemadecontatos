@@ -1,12 +1,34 @@
-﻿@{
+﻿@model List<ContatoModel>
+
+@{
+
     ViewData["Title"] = "Listagem de Contatos";
+
 }
 
-<div class="text-center"> <!--Deixar tudo no centro -->
+@if (TempData["Mensagemsucesso"] != null)
+{
 
+    <div class="alert alert-success" role="alert">
+        <button type="button" class="btn btn-danger btn-sm close-alert">X</button>
+        @TempData["Mensagemsucesso"]
+    </div>
+
+}
+@if (TempData["Mensagemerro"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        <button type="button" class="btn btn-danger btn-sm close-alert">X</button>
+        @TempData["Mensagemerro"]
+    </div>
+}
+
+<br>
+<div class="text-center">
+    <!-- Deixar tudo no centro -->
 
     <h1>Listagem de contatos</h1>
-    <table class="table">
+    <table class="table" id="table-contatos">
         <thead>
             <tr>
                 <th scope="col">#</th>
@@ -17,7 +39,31 @@
             </tr>
         </thead>
         <tbody>
+            @foreach (ContatoModel contato in Model)
+            {
+                <tr>
+                    <th scope="row">@contato.Id</th>
+                    <td>@contato.Nome</td>
+                    <td>@contato.Email</td>
+                    <td>@contato.Celular</td>
+                    <td>
+                        <!--Aqui os botoes vao ficar lado a lado porque coloquei em grupos de botao-->
+                        <div class="btn-group" role="group">
+                            <a role="button" class="btn btn-primary" asp-route-id="@contato.Id" asp-controller="Contato" asp-action="EditarCtt">Editar</a>
+                            <a role="button" class="btn btn-danger" asp-route-id="@contato.Id" asp-controller="Contato" asp-action="AlertarDelete">Apagar</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 
+    <!-- Colocar o botão abaixo da tabela e alinhado à direita com a classe do Bootstrap -->
+    <div class="d-flex justify-content-end">
+        <a class="btn btn-primary" role="button" asp-controller="Contato" asp-action="CriarCttView">Adicionar novo contato</a>
+    </div>
+
+</div>
             <!-- Criei uma tabela e nela tem botoes, fiz com exemplos do bootstrap
 
             <th scope="col">: Cabeçalho da coluna.
@@ -29,50 +75,8 @@
 
             <a role="button" class="btn btn-primary">Editar</a> botão azul com link para a tela de editar
             <a role="button" class="btn btn-danger">Apagar</a>  botão azul com link para apagar
-            -->
-            <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto@gmail.com</td>
-                <td>11 92222-2020</td>
-                <td>
-                    <div class="btn-group" role="group">
-                        <a role="button" class="btn btn-primary" asp-controller="Contato" asp-action="EditarCtt">Editar</a>
-                        <a role="button" class="btn btn-danger" asp-controller="Contato" asp-action="ApagarCttConfirmacao">Apagar</a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton@gmail.com</td>
-                <td>11 92222-2020</td>
-                <td>
-                    <div class="btn-group" role="group">
-                        <a role="button" class="btn btn-primary" asp-controller="Contato" asp-action="EditarCtt">Editar</a>
-                        <a role="button" class="btn btn-danger" asp-controller="Contato" asp-action="ApagarCttConfirmacao">Apagar</a>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>Larry@gmail.com</td>
-                <td>11 92222-2020</td>
-                <td> <!--Aqui os botoes vao ficar lado a lado porque coloquei em grupos de botao-->
-                    <div class="btn-group" role="group">
-                        <a role="button" class="btn btn-primary" asp-controller="Contato" asp-action="EditarCtt">Editar</a>
-                        <a role="button" class="btn btn-danger" asp-controller="Contato" asp-action="ApagarCttConfirmacao">Apagar</a>
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-<!-- Colocar o botão abaixo da tabela e alinhado à direita com a classe do bookstrap -->
-<div class="d-flex justify-content-end">
-    <a class="btn btn-primary" role="button" asp-controller="Contato" asp-action="CriarCttView">Adicionar novo contato</a>
-</div>
+            -->  
+
 
 
 <!--A classe btn btn-primary do Bootstrap deixa o elemento com aparência de um botão,

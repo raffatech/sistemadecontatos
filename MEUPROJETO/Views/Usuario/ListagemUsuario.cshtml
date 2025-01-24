@@ -1,0 +1,90 @@
+﻿@model List<UsuarioModel>
+
+@{
+
+    ViewData["Title"] = "Listagem de Usuario";
+
+}
+
+@if (TempData["Mensagemsucesso"] != null)
+{
+
+    <div class="alert alert-success" role="alert">
+        <button type="button" class="btn btn-danger btn-sm close-alert">X</button>
+        @TempData["Mensagemsucesso"]
+    </div>
+
+}
+@if (TempData["Mensagemerro"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        <button type="button" class="btn btn-danger btn-sm close-alert">X</button>
+        @TempData["Mensagemerro"]
+    </div>
+}
+
+<br>
+<div class="text-center">
+    <!-- Deixar tudo no centro -->
+
+    <h1>Listagem de Usuarios</h1>
+    <table class="table" id="table-usuarios">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Login</th>
+                <th scope="col">E-mail</th>
+                <th scope="col">Perfil</th>
+                <th scope="col">Data de cadastro</th>
+                <th scope="col">Data de Atualização</th>
+                <th scope="col"></th>  <!-- Oq isso interfere do datatable do js? -->
+            </tr>
+        </thead>
+        <tbody>
+
+            @if (Model != null && Model.Any())
+            {
+                @foreach (UsuarioModel usuario in Model)
+                {
+                    <tr>
+                        <th scope="row">@usuario.Id</th>
+                        <td>@usuario.Nome</td>
+                        <td>@usuario.Login</td>
+                        <td>@usuario.Email</td>
+                        <td>@(usuario.Perfil == MEUPROJETO.Enums.PerfilEnum.Admin ? ("Administrador") : "Padrão")</td>
+                        <td>@usuario.DataCadastro</td>
+
+    <!--  1º ? valida se é null antes da conversão, caso seja ele nao converte para string.
+
+    2º ?? operador de coalescência nula verifica o resultado da 1º se não for ele mostra a data convertida, se for ele mostra sem informações-->
+                        <td>@(usuario.DataAtualizacao?.ToString("dd/MM/yyyy HH:mm:ss") ?? "Sem informações")</td>
+                        <td>
+                            <!--Aqui os botoes vao ficar lado a lado porque coloquei em grupos de botao-->
+                            <div class="btn-group" role="group">
+                                <a role="button" class="btn btn-primary" asp-route-id="@usuario.Id" asp-controller="Usuario" asp-action="EditarUsuarioView">Editar</a>
+                                <a role="button" class="btn btn-danger" asp-route-id="@usuario.Id" asp-controller="Usuario" asp-action="AlertarExclusaoView">Apagar</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr class="odd"><td valign="middle" colspan="5">Nenhum usuario encontrado</td></tr>
+            }
+        </tbody>
+    </table>
+
+    <!-- Colocar o botão abaixo da tabela e alinhado à direita com a classe do Bootstrap -->
+    <div class="d-flex justify-content-end">
+        <a class="btn btn-primary" role="button" asp-controller="Usuario" asp-action="CriarUsuarioView">Adicionar novo Usuario</a>
+    </div>
+
+</div>
+
+
+<!--A classe btn btn-primary do Bootstrap deixa o elemento com aparência de um botão,
+o role="button" avisa ao navegador e às tecnologias assistivas que ele deve ser tratado como um botão,
+não importando a tag. O atributo role serve para definir a função do elemento em termos de acessibilidade,
+como link, alert, header e outros.-->
