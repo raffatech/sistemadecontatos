@@ -18,17 +18,17 @@
             <label for="Login" class="form-label">Login</label>
             <div class="btn-group">
                 <input asp-for="Login" class="form-control" placeholder="Digite o login">
-                <span asp-validation-for="Login" class="text-danger"></span>
                 <i class="bx bxs-user"></i>
             </div>
+            <span asp-validation-for="Login" class="text-danger"></span>
         </div>
         <div class="mb-3">
             <label for="Senha" class="form-label">Senha</label>
             <div class="btn-group">
                 <input asp-for="Senha" type="password" class="form-control" placeholder="Digite a senha">
-                <span asp-validation-for="Senha" class="text-danger"></span>
                 <i class="bx bxs-lock-alt"></i>
             </div>
+            <span asp-validation-for="Senha" class="text-danger"></span>
         </div>
 
         <button type="submit" class="btn">Entrar</button>

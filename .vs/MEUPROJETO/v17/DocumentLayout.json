@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\views\\login\\logintela.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\views\\login\\logintela.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\data\\bancocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\data\\bancocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,28 +35,12 @@
       "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\views\\login\\logintela.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\views\\login\\logintela.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\views\\usuario\\editarusuarioview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\views\\usuario\\editarusuarioview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\data\\bancocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\data\\bancocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\views\\usuario\\listagemusuario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -95,10 +99,6 @@
       "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|c:\\users\\gomes\\source\\repos\\meuprojeto\\meuprojeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{3C1925FA-6327-40EC-971C-1A9E8E564698}|MEUPROJETO\\MEUPROJETO.csproj|solutionrelative:meuprojeto\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -122,76 +122,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Models\\LoginModel.cs",
-              "RelativeDocumentMoniker": "MEUPROJETO\\Models\\LoginModel.cs",
-              "ToolTip": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Models\\LoginModel.cs",
-              "RelativeToolTip": "MEUPROJETO\\Models\\LoginModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T18:55:05.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "LoginTela.cshtml",
-              "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\Login\\LoginTela.cshtml",
-              "RelativeDocumentMoniker": "MEUPROJETO\\Views\\Login\\LoginTela.cshtml",
-              "ToolTip": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\Login\\LoginTela.cshtml",
-              "RelativeToolTip": "MEUPROJETO\\Views\\Login\\LoginTela.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-23T18:41:50.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "MEUPROJETO\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "MEUPROJETO\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAwwFwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T16:46:54.93Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "MEUPROJETO\\Controllers\\LoginController.cs",
               "ToolTip": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Controllers\\LoginController.cs",
               "RelativeToolTip": "MEUPROJETO\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA1wCEAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwCcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T15:16:02.276Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
+              "Title": "LoginTela.cshtml",
+              "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\Login\\LoginTela.cshtml",
+              "RelativeDocumentMoniker": "MEUPROJETO\\Views\\Login\\LoginTela.cshtml",
+              "ToolTip": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\Login\\LoginTela.cshtml",
+              "RelativeToolTip": "MEUPROJETO\\Views\\Login\\LoginTela.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-23T18:41:50.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "MEUPROJETO\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "MEUPROJETO\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAowFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T16:46:54.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Program.cs",
               "RelativeDocumentMoniker": "MEUPROJETO\\Program.cs",
               "ToolTip": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Program.cs",
               "RelativeToolTip": "MEUPROJETO\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T15:15:07.43Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ContatoController.cs",
               "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Controllers\\ContatoController.cs",
               "RelativeDocumentMoniker": "MEUPROJETO\\Controllers\\ContatoController.cs",
@@ -204,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "ContatoViewModel.cs",
               "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\ViewModels\\ContatoViewModel.cs",
               "RelativeDocumentMoniker": "MEUPROJETO\\ViewModels\\ContatoViewModel.cs",
@@ -217,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "BancoContext.cs",
               "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Data\\BancoContext.cs",
               "RelativeDocumentMoniker": "MEUPROJETO\\Data\\BancoContext.cs",
@@ -230,7 +217,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\appsettings.json",
+              "RelativeDocumentMoniker": "MEUPROJETO\\appsettings.json",
+              "ToolTip": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\appsettings.json",
+              "RelativeToolTip": "MEUPROJETO\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-22T12:40:36.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "MEUPROJETO\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Models\\LoginModel.cs",
+              "RelativeToolTip": "MEUPROJETO\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T18:55:05.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "EditarUsuarioView.cshtml",
               "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\Usuario\\EditarUsuarioView.cshtml",
               "RelativeDocumentMoniker": "MEUPROJETO\\Views\\Usuario\\EditarUsuarioView.cshtml",
@@ -243,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ListagemUsuario.cshtml",
               "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\Usuario\\ListagemUsuario.cshtml",
               "RelativeDocumentMoniker": "MEUPROJETO\\Views\\Usuario\\ListagemUsuario.cshtml",
@@ -256,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ContatoModel.cs",
               "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Models\\ContatoModel.cs",
               "RelativeDocumentMoniker": "MEUPROJETO\\Models\\ContatoModel.cs",
@@ -269,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "_LayoutDeslogado.cshtml",
               "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\Shared\\_LayoutDeslogado.cshtml",
               "RelativeDocumentMoniker": "MEUPROJETO\\Views\\Shared\\_LayoutDeslogado.cshtml",
@@ -282,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "AlertarExclusaoView.cshtml",
               "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\Usuario\\AlertarExclusaoView.cshtml",
               "RelativeDocumentMoniker": "MEUPROJETO\\Views\\Usuario\\AlertarExclusaoView.cshtml",
@@ -295,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "MEUPROJETO\\wwwroot\\css\\site.css",
@@ -308,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "layoutlogin.css",
               "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\wwwroot\\css\\layoutlogin.css",
               "RelativeDocumentMoniker": "MEUPROJETO\\wwwroot\\css\\layoutlogin.css",
@@ -321,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "MEUPROJETO\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -334,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MEUPROJETO\\Views\\Shared\\_Layout.cshtml",
@@ -347,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Listagem.cshtml",
               "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\Contato\\Listagem.cshtml",
               "RelativeDocumentMoniker": "MEUPROJETO\\Views\\Contato\\Listagem.cshtml",
@@ -360,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "CriarCttView.cshtml",
               "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\Contato\\CriarCttView.cshtml",
               "RelativeDocumentMoniker": "MEUPROJETO\\Views\\Contato\\CriarCttView.cshtml",
@@ -373,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "MEUPROJETO\\Views\\_ViewStart.cshtml",
@@ -386,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "EditarCtt.cshtml",
               "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\Contato\\EditarCtt.cshtml",
               "RelativeDocumentMoniker": "MEUPROJETO\\Views\\Contato\\EditarCtt.cshtml",
@@ -399,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "MEUPROJETO\\Properties\\launchSettings.json",
@@ -411,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "MEUPROJETO\\Views\\_ViewImports.cshtml",
@@ -432,18 +445,6 @@
               "ViewState": "AgIAAG4BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-01-22T12:36:35.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\appsettings.json",
-              "RelativeDocumentMoniker": "MEUPROJETO\\appsettings.json",
-              "ToolTip": "C:\\Users\\gomes\\source\\repos\\MEUPROJETO\\MEUPROJETO\\appsettings.json",
-              "RelativeToolTip": "MEUPROJETO\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-22T12:40:36.229Z"
             },
             {
               "$type": "Document",
