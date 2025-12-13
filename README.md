@@ -1,8 +1,8 @@
 Um pouco do Projeto:
 
-Este é um **sistema de cadastro de contatos** com funcionalidade **CRUD** (Criar, Ler, Atualizar, Excluir) não tão perfeitas nas duas views e uma interface simplesuma. O projeto foi desenvolvido para praticar conceitos de desenvolvimento e **Modelo de Arquitetura MVC**.
+Este é um **sistema de cadastro de contatos** com funcionalidade **CRUD** (Criar, Ler, Atualizar, Excluir) com interface simples. O projeto foi desenvolvido para praticar conceitos de desenvolvimento e **Modelo de Arquitetura MVC**.
 
-Ainda há alguns ajustes a serem feitos, mas o quis registrar os primeiros passos, oferece uma boa base para iniciantes que buscam aprender e aplicar esses conceitos em um projeto real.
+Ainda há alguns ajustes a serem feitos, mas quis registrar os primeiros passos, oferece uma boa base para iniciantes que buscam aprender e aplicar esses conceitos em um projeto real.
 
   **Funcionalidades principais:**
 - CRUD de dados.
