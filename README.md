@@ -1,16 +1,18 @@
-Um pouco do Projeto:
+## About the Project
 
-Este é um **sistema de cadastro de contatos** com funcionalidade **CRUD** (Criar, Ler, Atualizar, Excluir) com interface simples. O projeto foi desenvolvido para praticar conceitos de desenvolvimento e **Modelo de Arquitetura MVC**.
+This is a **contact management system** with **CRUD** functionality (Create, Read, Update, Delete) and a simple user interface. The project was developed to practice software development concepts and the **MVC Architecture Model**.
 
-Ainda há alguns ajustes a serem feitos, mas quis registrar os primeiros passos, oferece uma boa base para iniciantes que buscam aprender e aplicar esses conceitos em um projeto real.
+There are still some improvements to be made, but I wanted to document my first steps. It provides a solid foundation for beginners who want to learn and apply these concepts in a real project.
 
-  **Funcionalidades principais:**
-- CRUD de dados.
-- Edição, exclusão e visualização de contatos.
-- Interface simples e funcional.
+### Main Features
 
-Ferramentas e Tecnologias utilizadas:
-- **C#** para lógica de programação.
-- **CSS**, **JS** e **HTML** para o desenvolvimento da interface.
-- **MySQL** para o banco de dados.
-- **VISUAL STUDIO 2022** IDE que foi desenvolvido.
+* CRUD operations for contact data
+* Contact editing, deletion, and visualization
+* Simple and functional interface
+
+### Tools and Technologies Used
+
+* **C#** for backend and business logic
+* **CSS**, **JavaScript**, and **HTML** for the user interface
+* **MySQL** for database management
+* **Visual Studio 2022** as the development IDE
